@@ -38,28 +38,37 @@ h1{
  /* regole colonne */
 
  .col{
-    width:33%;
-/* DEBUG */
-background-color: blue;
-min-height: 85px;
-/* border: solid 4px rgb(234, 10, 167); */
-float: left;
+    width:274px;
+    background-color: #0f0e17; 
+    height: 79px;
+    float: left;
 }
 
 .col-1{
-    border-left:solid 12px rgb(234, 10, 167); ; 
-    border-right:solid 12px rgb(234, 10, 167); ; 
+    border-left:solid 12px white; 
+    border-right:solid 12px white; 
+    border-bottom:solid 12px white; 
+    border-top:solid 12px white; 
 } 
 
 
 .col-2{
-    border-left:solid 12px rgb(234, 10, 167); ; 
-    border-right:solid 12px rgb(234, 10, 167); ; 
-} 
+    border-left:solid 12px white; 
+    border-right:solid 12px white; 
+    border-bottom:solid 12px white; 
+    border-top:solid 12px white; 
+}
+
 
 .col-3{
-    border-left:solid 12px rgb(234, 10, 167); ; 
-    border-right:solid 12px rgb(234, 10, 167); ; 
+    border-left:solid 12px white; 
+    border-right:solid 12px white; 
+    border-bottom:solid 12px white; 
+    border-top:solid 12px white; 
 } 
-
+ 
+.photo{
+    height: 55px;
+    width: auto;
+}
 
