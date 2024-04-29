@@ -1,9 +1,9 @@
 /* general rule */
 
 *{
-    margin: 0;
+    margin-left: 10px;
     padding: 0;
-    box-sizing: border-box;    
+    /* box-sizing: border-box;     */
 }
 
 #contain {
@@ -39,7 +39,7 @@ h1{
 
  .col{
     width:274px;
-    background-color: #0f0e17; 
+    background-color: #000000; 
     height: 79px;
     float: left;
 }
@@ -68,7 +68,26 @@ h1{
 } 
  
 .photo{
-    height: 55px;
+    float: left;
+    height: 79px;
     width: auto;
+    margin-left: 0px;
 }
 
+.nameteammate{
+    /* float: right; */
+    font-size: 9px;
+    color: white;
+    align-content: center;
+    line-height: 17px;
+} 
+
+
+.infoteammate{
+    font-size: 9px;
+    color: white;
+}
+
+.email{
+    color: #49b3cd;
+}
