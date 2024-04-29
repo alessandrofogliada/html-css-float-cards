@@ -1,0 +1,65 @@
+/* general rule */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+#contain {
+    width: 80%;
+    margin:50px auto;
+}
+
+body{
+    /* background-color: rgb(255, 255, 255); */
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.row ::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+/* header */
+
+header{
+    text-align: center;
+}
+
+h1{
+    color:#e43270;
+}
+
+/* main */
+
+ /* regole colonne */
+
+ .col{
+    width:33%;
+/* DEBUG */
+background-color: blue;
+min-height: 85px;
+/* border: solid 4px rgb(234, 10, 167); */
+float: left;
+}
+
+.col-1{
+    border-left:solid 12px rgb(234, 10, 167); ; 
+    border-right:solid 12px rgb(234, 10, 167); ; 
+} 
+
+
+.col-2{
+    border-left:solid 12px rgb(234, 10, 167); ; 
+    border-right:solid 12px rgb(234, 10, 167); ; 
+} 
+
+.col-3{
+    border-left:solid 12px rgb(234, 10, 167); ; 
+    border-right:solid 12px rgb(234, 10, 167); ; 
+} 
+
+
